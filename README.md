@@ -111,7 +111,9 @@ dem_project/
 
 ## LLM Usage Disclosure
 
-AI assistance was used to debugg the initial codes.
+AI assistance was used in finshing this project.
+Like Claude to generate the basic structure and bug fixing.
+ChatGPT to debugg the initial codes and documentation purposes as well.
 
 ---
 
