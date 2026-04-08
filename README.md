@@ -1,32 +1,6 @@
 # DEM Particle Simulator – HPSC 2026 Assignment 1
 
-A three-dimensional **Discrete Element Method (DEM)** solver for spherical particles, implemented in **C++17** (driver) and **Fortran 90** (compute kernels), parallelised with **OpenMP**, and post-processed with **Python 3**.
-
----
-
-## Prerequisites
-
-| Tool | Version tested | Purpose |
-|------|---------------|---------|
-| `g++` | ≥ 9 | C++ driver compilation |
-| `gfortran` | ≥ 9 | Fortran 90 kernels |
-| OpenMP | 4.5+ | Shared-memory parallelism (bundled with GCC) |
-| `python3` | ≥ 3.8 | Visualisation and verification scripts |
-| `numpy` | any | Array math |
-| `pandas` | any | CSV I/O |
-| `matplotlib` | any | Plots |
-| `scipy` | any | Peak detection in bounce test |
-
-Install Python dependencies:
-
-pip install numpy pandas matplotlib scipy
-
-
----
-
-## Build
-
-
+A three-dimensional **Discrete Element Method (DEM)** solver for spherical particles, implemented in **C++** (driver) and **Fortran 90** (compute kernels), parallelised with **OpenMP**, and post-processed with **Python 3**.
 # Optimised build (default)
 make
 
